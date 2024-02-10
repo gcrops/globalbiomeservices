@@ -12,7 +12,7 @@ function App() {
         <div className="Horizontal">
           <div className="horiText">
             <div className="horiTextHeader">
-              <h2>Team at GBS</h2>{' '}
+              <h2>Team at GBS</h2>
             </div>
             Extended teams GBS is committed to building and maintaining
             exceptional relationships with our clients and candidates. We have

@@ -35,6 +35,7 @@
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
+  height: 200vh;
 }
 
 .Horizontal {
@@ -46,8 +47,8 @@
 }
 
 .Horizontal img {
-  height: 55vh;
-  width: 55vw;
+  height: 50vh;
+  width: 50vw;
   border-top-right-radius: 10%;
   border-bottom-left-radius: 10%;
   padding: 1vh;
@@ -58,6 +59,20 @@
 }
 
 .horiText {
-  width: 30vw;
-  font-weight: 400;
+  width: 50vw;
+  height: 200px;
+  font-weight: 500;
+  font-size: large;
+}
+
+@media screen and (max-width: 950px) {
+  .Horizontal img {
+    display: none;
+  }
+  .horiText{
+    width: 100vw;
+  }
+  .Horizontal {
+    width: 100vw;
+  }
 }

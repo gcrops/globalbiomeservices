@@ -9,6 +9,10 @@
   margin-bottom: 10vh;
 }
 
+.ham {
+  display: none;
+}
+
 .cropxLogo {
   padding: 1vh;
 }
@@ -22,4 +26,14 @@
 .RightFlex div {
   margin: 2vh;
   font-size: large;
+}
+
+@media screen and (max-width: 950px) {
+  .RightFlex {
+    display: none;
+  }
+  .ham {
+    display: flex;
+    padding: 2vh;
+  }
 }

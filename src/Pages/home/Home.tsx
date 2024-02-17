@@ -1,4 +1,4 @@
-import { Services } from '../components/services.tsx';
+import { Services } from '../../components/services/services.tsx';
 import './Home.css';
 export function Home() {
   return (

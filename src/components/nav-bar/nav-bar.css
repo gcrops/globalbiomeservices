@@ -20,12 +20,14 @@
   align-items: center;
 }
 
-.RightFlex div {
+.RightFlex div a{
   margin: 2vh;
   font-size: large;
+  color: black;
+  text-decoration: none;
 }
 
-.RightFlex div:hover {
+.RightFlex div a:hover {
   text-decoration: underline;
 }
 

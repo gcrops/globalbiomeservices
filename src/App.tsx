@@ -19,7 +19,7 @@ function App() {
           <Route path="carrers" element={<Carrers />} />
           <Route path="blog" element={<Product />} />
           <Route path="clients" element={<ContactUs />} />
-          <Route path="contact" element={<Product />} />
+          <Route path="contact" element={<ContactUs />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>

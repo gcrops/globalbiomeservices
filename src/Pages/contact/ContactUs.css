@@ -84,13 +84,13 @@ input[type='submit']:hover {
 }
 
 @media screen and (max-width: 950px) {
-  .contactsplit{
+  .contactsplit {
     flex-direction: column;
   }
   .getintouch {
     width: 100vw;
   }
-  .officeaddress{
+  .officeaddress {
     width: 100vw;
     padding: 4vw;
   }

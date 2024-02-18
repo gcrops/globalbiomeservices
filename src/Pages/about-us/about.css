@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.enjoy {
+  font-size: 40px;
+  width: 45vw;
+  margin: auto;
+  padding-bottom: 5vh;
+}
+.aboutus {
+  font-weight: 300;
+  font-size: 40px;
+}
+em {
+  font-style: italic;
+  color: #01a9f4;
+  font-family: 'Playfair Display';
+}
+
+.aboutcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content45 {
+  width: 40vw;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 950px) {
+  .enjoy {
+    width: 100vw;
+  }
+  .aboutcontent {
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  .content45 {
+    width: 75vw;
+  }
+}

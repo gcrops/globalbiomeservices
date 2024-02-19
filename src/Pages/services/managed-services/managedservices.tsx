@@ -1,3 +1,3 @@
 export function Managedservices() {
-  return <div></div>;
+  return <div>Managed services</div>;
 }

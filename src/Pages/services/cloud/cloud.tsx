@@ -1,3 +1,3 @@
 export function Cloud() {
-  return <div></div>;
+  return <div>Cloud</div>;
 }

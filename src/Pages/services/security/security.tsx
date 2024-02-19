@@ -1,3 +1,3 @@
 export function Security() {
-  return <div></div>;
+  return <div>Security</div>;
 }

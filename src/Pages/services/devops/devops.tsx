@@ -9,7 +9,9 @@ export function Devops() {
             DevOps is not a Goal, But a never-ending process of continual
             improvement
           </div>
-          <div className="consult">SCHEDULE A CONSULTATION</div>
+          <div className="consult" onClick={()=>{
+            location.href="/contact"
+          }}>SCHEDULE A CONSULTATION</div>
         </div>
         <img src="/devops.jpeg" alt="devops" className="devopsImage" />
       </div>

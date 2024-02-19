@@ -1,3 +1,3 @@
 export function Teams() {
-  return <div></div>;
+  return <div>Teams</div>;
 }

@@ -21,7 +21,20 @@ export function Navbar() {
             <Link to="/about">About</Link>
           </div>
           <div>
-            <Link to="/services">Services</Link>
+            <div className="dropdown">
+              <div className="dropbtn">
+                Services
+                <i className="fa fa-caret-down"></i>
+              </div>
+              <div className="dropdown-content">
+                <a href="/services/devops">Devops</a>
+                <a href="/services/cloud">Cloud Migration</a>
+                <a href="/services/geo">Geo spatial</a>
+                <a href="/services/security">Cloud Security</a>
+                <a href="services/managed-services">Managed Services</a>
+                <a href="services/teams">Extended Teams</a>
+              </div>
+            </div>
           </div>
           <div>
             <Link to="/products">Products</Link>

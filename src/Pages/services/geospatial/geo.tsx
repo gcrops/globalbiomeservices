@@ -1,3 +1,3 @@
 export function Geo() {
-  return <div></div>;
+  return <div>Geo spatial</div>;
 }

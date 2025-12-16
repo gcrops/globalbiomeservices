@@ -2,7 +2,7 @@ import './App.css';
 import { Navbar, CopyRight } from './components';
 import {
   Home,
-  Carrers,
+  Careers, 
   ContactUs,
   Product,
   About,
@@ -31,7 +31,7 @@ function App() {
           <Route path="services/*" element={<Devops />}></Route>
 
           <Route path="products" element={<Product />} />
-          <Route path="carrers" element={<Carrers />} />
+          <Route path="careers" element={<Careers />} />
           <Route path="blog" element={<Product />} />
           <Route path="clients" element={<Clients />} />
           <Route path="contact" element={<ContactUs />} />

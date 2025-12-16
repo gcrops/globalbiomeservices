@@ -1,5 +1,5 @@
 import './careers.css';
-export function Carrers() {
+export function Careers() {
   return (
     <div>
       <div className="MainHeroCarrers">

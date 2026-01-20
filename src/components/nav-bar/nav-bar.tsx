@@ -1,4 +1,4 @@
-import {AddressBar} from '@/components/address-bar/address-bar'
+import { AddressBar } from '@/components/address-bar/address-bar';
 import { Link } from 'react-router-dom';
 import './nav-bar.css';
 export function Navbar() {

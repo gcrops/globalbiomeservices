@@ -1,8 +1,8 @@
 import './App.css';
-import { Navbar, CopyRight }from '@/components'
+import { Navbar, CopyRight } from '@/components';
 import {
   Home,
-  Careers, 
+  Careers,
   ContactUs,
   Product,
   About,

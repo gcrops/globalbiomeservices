@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './nav-bar.css';
 export function Navbar() {
   return (
-    <div>
+    <div className="sticky">
       <div>
         <AddressBar />
       </div>

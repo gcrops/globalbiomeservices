@@ -65,3 +65,7 @@
     width: 100vw;
   }
 }
+
+html, body {
+  font-family: "Inter"
+}

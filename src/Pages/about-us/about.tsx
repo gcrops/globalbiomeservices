@@ -8,10 +8,6 @@ export function About() {
         Enjoy the best <em>IT Services </em> specialized in{' '}
         <em>helping clients</em> for digital transformation
       </div>
-      <div>
-        We believe in total commitment and better results for all our
-        associates.
-      </div>
       <div className="aboutcontent">
         <div className="content45">
           <p>

@@ -6,6 +6,11 @@
   background-color: white;
 }
 
+.sticky{
+  position: sticky;
+  top: 0;
+}
+
 .ham {
   display: none;
 }

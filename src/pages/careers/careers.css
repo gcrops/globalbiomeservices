@@ -1,5 +1,5 @@
 .MainHeroCarrers {
-  background-image: url('https://cropx.com/wp-content/uploads/2022/12/ALG-DRUIVEN-LIGGEND-NL-5005-scaled.jpg');
+  background-image: url('/fourth.jpg');
   height: 40vh;
   background-position-x: center;
   background-position-y: center;
@@ -47,4 +47,12 @@
   width: 75vw;
   text-align: left;
   color: rgba(70, 112, 127);
+}
+
+.details ol {
+  padding-left: 20px;
+}
+
+.details li {
+  margin-bottom: 10px;
 }

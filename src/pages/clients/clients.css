@@ -1,5 +1,5 @@
-.MainHeroCarrers {
-  background-image: url('https://cropx.com/wp-content/uploads/2022/12/iStock-1286905602-3.jpg');
+.MainHeroClients {
+  background-image: url('/third.jpg');
   height: 40vh;
   background-position-x: center;
   background-position-y: center;
@@ -26,23 +26,4 @@
   font-size: 16px;
   color: rgb(69 110 125);
   text-align: left;
-}
-
-.clients {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 5vh;
-}
-.clients div {
-  width: 25vw;
-  height: 15vh;
-}
-
-@media screen and (max-width: 950px) {
-  .clients {
-    flex-direction: column;
-  }
-  .clients div {
-    margin: auto;
-  }
 }

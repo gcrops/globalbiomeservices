@@ -1,5 +1,15 @@
+import { useState } from 'react';
 import './ContactUs.css';
 export function ContactUs() {
+  const [name, setName] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleGmailOpen = () => {
+    const subject = `Contact from ${name}`;
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=info@globalbiomeservices.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+    window.open(gmailUrl);
+  };
+
   return (
     <div>
       <div className="MainHeroContactus">
@@ -20,17 +30,19 @@ export function ContactUs() {
                 id="fname"
                 name="firstname"
                 placeholder="Your name.."
+                value={name}
+                onChange={e => setName(e.target.value)}
               />
-              <label>Email*</label>
-              <input
-                type="text"
-                id="lname"
-                name="lastname"
-                placeholder="Email"
-              ></input>
               <label>Your Message</label>
-              <textarea id="subject" name="subject"></textarea>
-              <input type="submit" value="Submit" id="submit"></input>
+              <textarea
+                id="subject"
+                name="subject"
+                value={message}
+                onChange={e => setMessage(e.target.value)}
+              ></textarea>
+              <button className="email-button" onClick={handleGmailOpen}>
+                Submit
+              </button>
             </form>
           </div>
         </div>
@@ -38,19 +50,10 @@ export function ContactUs() {
           <h1>USA Office</h1>
           <div>Global Biomeservices LLC</div>
           <div className="customblue">
-            81 Big Oak Road, STE # 134
-            <div>Morrisville, PA 19067 </div>
-            <div>Phone: (267) 317 4806</div>
+            Global Biome Services
+            <div>500 College Road E,</div>
+            <div>Suite 201, Princeton NJ 08540.</div>
             Email: info@globalbiomeservices.com
-          </div>
-          <h1>India Office</h1>
-          <div>
-            <div>SEQATO SOFTWARE SOLUTIONS PVT. LTD. </div>
-            <div className="customblue">
-              <div>Level 1, Nila Buliding, Technopark, Trivandrum.</div>
-              <div>Kerala, India – 695581 </div>
-              <div>Email: info@seqato.com</div>
-            </div>
           </div>
         </div>
       </div>

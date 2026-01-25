@@ -1,6 +1,6 @@
 .MainHero {
-  background-image: url("/nasa.jpg");
-  height: 80vh;
+  background-image: url('/nasa.jpg');
+  height: 65vh;
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -77,6 +77,7 @@
   }
 }
 
-html, body {
-  font-family: "Inter"
+html,
+body {
+  font-family: 'Inter';
 }

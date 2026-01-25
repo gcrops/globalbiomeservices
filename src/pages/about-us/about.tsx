@@ -11,10 +11,18 @@ export function About() {
       <div className="aboutcontent">
         <div className="content45">
           <p>
-            Based in Princeton, <strong>Global Biomeservices (GBS)</strong> is a premier IT hub specializing in digital transformation and the development of next-generation intelligent systems.
+            Based in Princeton, <strong>Global Biomeservices (GBS)</strong> is a
+            premier IT hub specializing in digital transformation and the
+            development of next-generation intelligent systems.
           </p>
           <p>
-            We maximize business value and ROI through cloud enablement, converged platforms, and expert Data Engineering—turning complex GeoData and autonomous Agentic AI into actionable intelligence. Driven by a commitment to R&D in frontier technologies like Space-Tech, Quantum Computing, and Digital Twins, GBS combines deep-tech expertise with strategic sourcing to connect clients with the specialized talent needed to excel.
+            We maximize business value and ROI through cloud enablement,
+            converged platforms, and expert Data Engineering—turning complex
+            GeoData and autonomous Agentic AI into actionable intelligence.
+            Driven by a commitment to R&D in frontier technologies like
+            Space-Tech, Quantum Computing, and Digital Twins, GBS combines
+            deep-tech expertise with strategic sourcing to connect clients with
+            the specialized talent needed to excel.
           </p>
         </div>
 
@@ -30,7 +38,8 @@ export function About() {
             Dascase specializes in effective outsourcing and technological
             applications. It has been over 8 years of high performance. We
             believe in total commitment and better results for all our
-            associates.We are committed to building long-term partnerships with our clients.
+            associates.We are committed to building long-term partnerships with
+            our clients.
           </p>
         </div>
       </div>

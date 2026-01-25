@@ -21,6 +21,10 @@
   margin-left: 1vh;
   margin-right: 1vh;
 }
+.address-left > div > a {
+  text-decoration: none;
+  color: inherit; /* Inherits the text color */
+}
 
 @media screen and (max-width: 950px) {
   .address {

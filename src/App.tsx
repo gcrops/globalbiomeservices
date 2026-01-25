@@ -33,10 +33,8 @@ function App() {
           <Route path="services/teams" element={<Teams />}></Route>
           <Route path="services/*" element={<Devops />}></Route>
 
-          <Route path="products" element={<Product />} />
           <Route path="careers" element={<Careers />} />
           <Route path="blog" element={<Product />} />
-          <Route path="clients" element={<Clients />} />
           <Route path="contact" element={<ContactUs />} />
           <Route path="*" element={<Home />} />
         </Routes>

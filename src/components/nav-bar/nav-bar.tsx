@@ -52,16 +52,10 @@ export function Navbar() {
             </div>
           </div>
           <div>
-            <Link to="/products">Products</Link>
-          </div>
-          <div>
             <Link to="/careers">Careers</Link>
           </div>
           <div>
             <Link to="/blog">Blog</Link>
-          </div>
-          <div>
-            <Link to="/clients">Clients</Link>
           </div>
           <div>
             <Link to="/contact">Contact</Link>

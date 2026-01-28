@@ -32,14 +32,30 @@ export function Navbar() {
                     <i className="fa fa-caret-right"></i>
                   </div>
                   <div className="geosubdropdowncontent">
-                    <Link to="/services/geo/urban">Urban Planning & 3D GIS</Link>
-                    <Link to="/services/geo/infra">Infrastructure and road mapping</Link>
-                    <Link to="/services/geo/hydro">Hydrology, Cachement & Irrigation</Link>
-                    <Link to="/services/geo/flood">Flood risk & stormwater Modelling</Link>
-                    <Link to="/services/geo/terrain">Terrain Analysis & Mapping</Link>
-                    <Link to="/services/geo/enviornment">Enviornment & Green Infrastructure</Link>
-                    <Link to="/services/geo/renewables">Renewables & Solar Access Assesment</Link>
-                    <Link to="/services/geo/gis">GIS data compilation and Standarization</Link>
+                    <Link to="/services/geo/urban">
+                      Urban Planning & 3D GIS
+                    </Link>
+                    <Link to="/services/geo/infra">
+                      Infrastructure and road mapping
+                    </Link>
+                    <Link to="/services/geo/hydro">
+                      Hydrology, Cachement & Irrigation
+                    </Link>
+                    <Link to="/services/geo/flood">
+                      Flood risk & stormwater Modelling
+                    </Link>
+                    <Link to="/services/geo/terrain">
+                      Terrain Analysis & Mapping
+                    </Link>
+                    <Link to="/services/geo/enviornment">
+                      Enviornment & Green Infrastructure
+                    </Link>
+                    <Link to="/services/geo/renewables">
+                      Renewables & Solar Access Assesment
+                    </Link>
+                    <Link to="/services/geo/gis">
+                      GIS data compilation and Standarization
+                    </Link>
                     <Link to="/services/geo/webgis">Web GIS development</Link>
                   </div>
                 </div>

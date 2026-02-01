@@ -42,11 +42,7 @@ export function Home() {
             predictive terrain modeling, and real-time environmental monitoring,
             allowing for faster and more accurate decision-making in
             applications like urban planning, disaster response, and sustainable
-            resource management. By integrating advanced algorithms with
-            geospatial expertise, we empower clients to uncover hidden patterns
-            in vast datasets, optimize operations, and build intelligent systems
-            that adapt to dynamic geographical challenges, ultimately driving
-            innovation and efficiency in a data-rich world.
+            resource management.
           </div>
           <img src="/aiml.jpeg" />
         </div>
@@ -64,12 +60,7 @@ export function Home() {
             expertise encompasses building scalable data pipelines, implementing
             ETL processes for transforming raw geospatial data into structured
             formats, and leveraging cloud-native architectures to handle big
-            data volumes efficiently. By designing robust systems that support
-            real-time analytics, cross-platform interoperability, and data
-            quality assurance, we enable clients to derive actionable insights
-            for critical applications such as urban mapping, environmental
-            monitoring, and infrastructure planning, ultimately fostering
-            innovation and operational excellence in the geospatial domain.
+            data volumes efficiently.
           </div>
         </div>
 

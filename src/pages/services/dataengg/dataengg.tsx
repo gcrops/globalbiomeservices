@@ -1,5 +1,5 @@
 import '../services.css';
-export function Security() {
+export function DataEngg() {
   return (
     <div className="ServicePage">
       <div className="ServiceHero">

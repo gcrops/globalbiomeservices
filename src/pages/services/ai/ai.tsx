@@ -1,8 +1,9 @@
 import '../services.css';
-export function Security() {
+export function AI() {
   return (
-    <div className="ServicePage">
-      <div className="ServiceHero">
+    <div className="MainServicePage">
+      <img src="/machine.jpg" alt="environment" />
+      <div className="MainServiceHero">
         ENVIRONMENT & GREEN
         <br />
         INFRASTRUCTURE ANALYSIS
@@ -13,7 +14,7 @@ export function Security() {
         climate-responsive planning. Using advanced GIS methods and high-quality
         spatial data, we help organisations understand, protect, and enhance
         natural and green assets.
-        <img src="/enviornment.avif" alt="environment" />
+        
         What We Do
         <ul>
           <li>Tree canopy and vegetation mapping</li>

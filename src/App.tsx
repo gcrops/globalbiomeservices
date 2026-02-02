@@ -6,9 +6,7 @@ import {
   ContactUs,
   Product,
   About,
-  Devops,
   Cloud,
-  Managedservices,
   Teams,
   Enviornment,
   Flood,
@@ -19,6 +17,8 @@ import {
   Terrain,
   Urban,
   WebGis,
+  DataEngg,
+  AI
 } from '@/pages';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
@@ -43,8 +43,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
 
-          <Route path="services/devops" element={<Devops />}></Route>
+          <Route path="services/dataengg" element={<DataEngg />}></Route>
           <Route path="services/cloud" element={<Cloud />}></Route>
+          <Route path="services/teams" element={<Teams />}></Route>
+          <Route path="services/ai" element={<AI />}></Route>
+          <Route path="services/*" element={<AI />}></Route>
 
           <Route
             path="services/geo/enviornment"
@@ -62,15 +65,14 @@ function App() {
           <Route path="services/geo/urban" element={<Urban />}></Route>
           <Route path="services/geo/webgis" element={<WebGis />}></Route>
 
-          <Route path="services/managed" element={<Managedservices />}></Route>
-          <Route path="services/teams" element={<Teams />}></Route>
-          <Route path="services/*" element={<Devops />}></Route>
+          
+          
 
           <Route path="careers" element={<Careers />} />
           <Route path="blog" element={<Product />} />
           <Route path="contact" element={<ContactUs />} />
           <Route path="*" element={<Home />} />
-        </Routes>
+        </Routes>``
       </BrowserRouter>
       <CopyRight></CopyRight>
     </div>

@@ -2,13 +2,10 @@ import './Product.css';
 export function Product() {
   return (
     <div>
-      <div className="MainHeroCarrers">
-        <div className="heroTextCarrers">Blogs</div>
+      <div className="MainHeroProduct">
+        <div className="heroTextProduct">Blogs</div>
       </div>
-      <div className="CareersHero">
-        
-      </div>
-      <div className="ServicePage">
+      <div className="MainProductPage">
         Blogs from GBS
       </div>
     </div>

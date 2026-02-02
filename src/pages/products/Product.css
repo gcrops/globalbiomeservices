@@ -1,4 +1,4 @@
-.MainHeroCarrers {
+.MainHeroProduct {
   background-image: url('/spacex.avif');
   height: 40vh;
   background-position-x: 0;
@@ -11,18 +11,10 @@
   padding-top: 10vh;
 }
 
-.heroTextCarrers {
+.heroTextProduct {
   color: white;
   background-color: #152845;
   font-size: 6vh;
   padding: 1vh;
   margin: 2vh;
-}
-
-.CareersHero {
-  padding-top: 10vh;
-  padding-bottom: 5vh;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
 }

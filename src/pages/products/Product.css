@@ -18,3 +18,32 @@
   padding: 1vh;
   margin: 2vh;
 }
+
+.MainProductPage {
+  margin: auto;
+  width: 90vw;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10vh;
+}
+
+.BlogCard {
+  height: 50vh;
+  width: 30vw;
+  margin-top: 10vh;
+}
+
+.BlogCard div{
+  height: 12vh;
+}
+
+.BlogCard img{
+  height: 50vh;
+  width: 30vw;
+}
+
+.BlogCard :hover{
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

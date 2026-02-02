@@ -5,11 +5,10 @@ export function Careers() {
       <div className="MainHeroCarrers">
         <div className="heroTextCarrers">Careers at GBS</div>
       </div>
-      <div className="open">OPEN</div>
-      <div className="positionMain">Positions</div>
-      <div className="positionRow">
-        <div className="position">DATA ARCHITECT</div>
-        <div className="details">
+        <div className="CareersHero">
+          OPEN POSITIONS<br/>
+          </div>
+        <div className="ServicePage">
           We are looking for Data Architects for our major Client in San
           Francisco, CA. Will work remotely to start with and then at the client
           location. The Data Architects should have a passion for data and
@@ -157,8 +156,8 @@ export function Careers() {
               innovative ideas, concepts, and patterns.
             </li>
           </ul>
-        </div>
       </div>
+      
     </div>
   );
 }

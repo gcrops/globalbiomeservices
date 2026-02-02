@@ -1,8 +1,8 @@
 .MainHeroCarrers {
-  background-image: url('/fourth.jpg');
+  background-image: url('/rocket.jpg');
   height: 40vh;
-  background-position-x: center;
-  background-position-y: center;
+  background-position-x: 0;
+  background-position-y: 20%;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -19,40 +19,10 @@
   margin: 2vh;
 }
 
-.positionMain {
-  font-size: 2.5em;
+.CareersHero {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
   font-weight: 400;
+  font-size: 20px;
   text-align: center;
-  padding: 5vh;
-}
-
-.positionRow {
-  display: flex;
-  flex-direction: row;
-  padding: 2vw;
-}
-
-.open {
-  font-size: 1em;
-  color: rgb(70, 112, 127);
-  font-weight: 700;
-  padding: 2vh;
-}
-
-.position {
-  width: 25vw;
-}
-
-.details {
-  width: 75vw;
-  text-align: left;
-  color: rgba(70, 112, 127);
-}
-
-.details ol {
-  padding-left: 20px;
-}
-
-.details li {
-  margin-bottom: 10px;
 }

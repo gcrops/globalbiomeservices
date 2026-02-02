@@ -1,58 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&display=swap');
-
-.product {
-  padding: 1.5vw;
-  width: 40vw;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  height: 60vh;
-}
-
-.productImage {
-  background-image: url('https://www.dascase.com/wp-content/uploads/2023/05/cropped-botz.jpg');
-  height: 50vh;
-  width: 40vw;
-  margin-left: 5vw;
-  z-index: 10000;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-position: center center;
+.MainHeroCarrers {
+  background-image: url('/spacex.avif');
+  height: 40vh;
+  background-position-x: 0;
+  background-position-y: 45%;
   background-size: cover;
-}
-
-.h3text {
-  font-size: 20px;
-  font-weight: 500;
-  font-family: 'Space Grotesk', sans-serif;
-}
-
-.productcard {
   display: flex;
+  flex-direction: column;
   align-items: baseline;
-  margin-top: 10vh;
-  text-align: left;
+  justify-content: left;
+  padding-top: 10vh;
 }
 
-.productcard h5 {
-  font-size: 0.9em;
-  font-weight: 700;
-  margin-bottom: 20px;
+.heroTextCarrers {
+  color: white;
+  background-color: #152845;
+  font-size: 6vh;
+  padding: 1vh;
+  margin: 2vh;
 }
 
-.productheader {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 950px) {
-  .productcard {
-    display: flex;
-    flex-direction: column;
-  }
-  .productImage {
-    margin: auto;
-    width: 90vw;
-  }
-  .product {
-    margin: auto;
-    width: 90vw;
-  }
+.CareersHero {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
 }

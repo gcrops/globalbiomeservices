@@ -1,39 +1,60 @@
 import '../services.css';
 export function Security() {
   return (
-    <div className="ServicePage">
-      <div className="ServiceHero">
-        ENVIRONMENT & GREEN
-        <br />
-        INFRASTRUCTURE ANALYSIS
-      </div>
+    <div>
+      <img src="/security.avif" alt="environment" className="ServiceImage" />
       <div>
-        GBS provides detailed environmental and green infrastructure analysis to
-        support sustainable land management, urban resilience, and
-        climate-responsive planning. Using advanced GIS methods and high-quality
-        spatial data, we help organisations understand, protect, and enhance
-        natural and green assets.
-        <img src="/enviornment.avif" alt="environment" />
-        What We Do
-        <ul>
-          <li>Tree canopy and vegetation mapping</li>
-          <li>Green infrastructure benchmarking</li>
-          <li>Land use and land cover analysis</li>
-          <li>Wetland and waterbody mapping</li>
-          <li>Riparian and stream network analysis</li>
-          <li>Environmental change detection</li>
-          <li>Spatial statistics and reporting</li>
-          <li>Data QA and documentation</li>
-        </ul>
-        Deliverables Clients receive:
-        <ul>
-          <li> Vegetation and canopy GIS layers</li>
-          <li>Green infrastructure benchmark datasets</li>
-          <li>Thematic environmental maps</li>
-          <li>Spatial statistics and analytical summaries</li>
-          <li>Change detection and trend analysis</li>
-          <li>Metadata and technical documentation</li>
-        </ul>
+        <div className="MainServiceHero">Security & Compliance</div>
+        <div className="MainServicePage">
+          Global BiomeServices implements a cloud-first security architecture to
+          protect its geospatial platforms as they scale globally. The
+          organization manages highly sensitive datasets, including
+          high-resolution satellite imagery, environmental intelligence, and
+          government-regulated data, making security a foundational requirement
+          rather than an afterthought. As workloads migrate to the cloud, the
+          security model shifts from perimeter-based defenses to a zero-trust
+          approach designed for distributed, cloud-native systems. <br /><br />
+          
+          Identity and
+          access management is centralized and tightly controlled across all
+          cloud environments. Every user, service, and application component is
+          authenticated and authorized using least-privilege principles.
+          Role-based and attribute-based access controls ensure that engineers,
+          data scientists, and external partners can only access the geospatial
+          datasets and services relevant to their responsibilities. All access
+          is continuously monitored and audited to maintain compliance and
+          traceability. <br /><br />
+          
+          Data security is enforced at every stage of the
+          geospatial data lifecycle. All data is encrypted both at rest and in
+          transit, including massive raster imagery and real-time sensor
+          streams. Sensitive datasets are isolated using secure network
+          boundaries and private endpoints, preventing exposure to the public
+          internet. Automated key management and rotation policies reduce
+          operational risk while maintaining strong cryptographic controls. <br /><br />
+          
+          
+          To
+          protect the platform from threats and misconfigurations, Global
+          BiomeServices deploys continuous security monitoring and automated
+          policy enforcement. Infrastructure-as-code templates are scanned for
+          vulnerabilities before deployment, while runtime security tools
+          monitor workloads for anomalous behavior such as unauthorized access
+          patterns or abnormal data exfiltration. Security events are correlated
+          with geospatial and temporal context, enabling faster investigation
+          and response. <br /><br />
+          
+          Finally, the company embeds security into its
+          engineering and operations culture through DevSecOps practices.
+          Security controls are integrated directly into CI/CD pipelines,
+          ensuring that new geospatial services meet compliance and security
+          standards before reaching production. Regular risk assessments,
+          penetration testing, and incident response drills keep the
+          organization prepared for emerging threats. Through this comprehensive
+          cloud security strategy, Global BiomeServices ensures that its
+          geospatial intelligence platforms remain secure, resilient, and
+          trusted at global scale.
+        </div>
       </div>
     </div>
   );

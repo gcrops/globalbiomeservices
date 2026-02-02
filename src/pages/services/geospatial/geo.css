@@ -22,11 +22,11 @@
 }
 
 @media (max-width: 600px) {
-    .ServicePage {
-        width: 90vw;
-        line-height: normal;
-    }
-    .ServicePage img {
-        width: 90vw;
-    }
+  .ServicePage {
+    width: 90vw;
+    line-height: normal;
+  }
+  .ServicePage img {
+    width: 90vw;
+  }
 }

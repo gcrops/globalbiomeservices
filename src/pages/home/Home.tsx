@@ -14,7 +14,16 @@ export function Home() {
             <div className="horiTextHeader">
               <h2>Geospatial at GBS</h2>
             </div>
-            <strong>At Global Biomeservices</strong>,Our geospatial capabilities focus on transforming location intelligence into real-world impact. We enable advanced solutions across satellite imagery, remote sensing, GIS, and spatial analytics to support applications in smart cities, climate monitoring, infrastructure planning, mobility, and national security. By combining deep domain expertise with cutting-edge technologies such as GeoAI, Digital Twins, and big data platforms, we empower organizations to model the physical world, uncover hidden patterns, and make faster, more informed decisions in an increasingly connected and data-driven environment.
+            <strong>At Global Biomeservices</strong>,Our geospatial capabilities
+            focus on transforming location intelligence into real-world impact.
+            We enable advanced solutions across satellite imagery, remote
+            sensing, GIS, and spatial analytics to support applications in smart
+            cities, climate monitoring, infrastructure planning, mobility, and
+            national security. By combining deep domain expertise with
+            cutting-edge technologies such as GeoAI, Digital Twins, and big data
+            platforms, we empower organizations to model the physical world,
+            uncover hidden patterns, and make faster, more informed decisions in
+            an increasingly connected and data-driven environment.
           </div>
         </div>
 

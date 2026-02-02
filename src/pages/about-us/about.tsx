@@ -5,7 +5,6 @@ export function About() {
     <div>
       <div className="AboutHero">
         <div className="heroText">About Us</div>
-      
       </div>
 
       <div className="aboutcontent">

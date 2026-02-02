@@ -1,8 +1,8 @@
 .MainHeroContactus {
-  background-image: url('/fifth.jpg');
+  background-image: url('/careers.avif');
   height: 40vh;
   background-position-x: center;
-  background-position-y: center;
+  background-position-y: 100%;
   background-size: cover;
   display: flex;
   flex-direction: column;

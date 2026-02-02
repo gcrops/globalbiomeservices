@@ -4,10 +4,10 @@ export function WebGis() {
     <div className="ServicePage">
       <div className="ServiceHero">WEB-GIS DEVELOPMENT</div>
       <div>
-        GBS designs and delivers intuitive Web GIS solutions that make
-        spatial data accessible, interactive, and easy to understand. Our
-        web-based maps and applications support collaboration, engagement, and
-        informed decision-making without the need for specialist GIS software.
+        GBS designs and delivers intuitive Web GIS solutions that make spatial
+        data accessible, interactive, and easy to understand. Our web-based maps
+        and applications support collaboration, engagement, and informed
+        decision-making without the need for specialist GIS software.
         <img src="/webdev.avif" alt="webdev" />
         What We Do
         <ul>

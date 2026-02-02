@@ -18,7 +18,8 @@ import {
   Urban,
   WebGis,
   DataEngg,
-  AI
+  AI,
+  Security,
 } from '@/pages';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
@@ -43,10 +44,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
 
-          <Route path="services/dataengg" element={<DataEngg />}></Route>
+          <Route path="services/ai" element={<AI />}></Route>
+          <Route path="services/dataengineering" element={<DataEngg />}></Route>
           <Route path="services/cloud" element={<Cloud />}></Route>
           <Route path="services/teams" element={<Teams />}></Route>
-          <Route path="services/ai" element={<AI />}></Route>
+          <Route path="services/security" element={<Security />}></Route>
           <Route path="services/*" element={<AI />}></Route>
 
           <Route
@@ -65,14 +67,11 @@ function App() {
           <Route path="services/geo/urban" element={<Urban />}></Route>
           <Route path="services/geo/webgis" element={<WebGis />}></Route>
 
-          
-          
-
           <Route path="careers" element={<Careers />} />
           <Route path="blog" element={<Product />} />
           <Route path="contact" element={<ContactUs />} />
           <Route path="*" element={<Home />} />
-        </Routes>``
+        </Routes>
       </BrowserRouter>
       <CopyRight></CopyRight>
     </div>

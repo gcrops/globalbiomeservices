@@ -9,7 +9,7 @@ export function Home() {
       </div>
       <div className="content">
         <div className="Horizontal">
-          <img src="/geospatial.jpeg" />
+          <img src="/firstpic.png" />
           <div className="horiText">
             <div className="horiTextHeader">
               <h2>Geospatial at GBS</h2>
